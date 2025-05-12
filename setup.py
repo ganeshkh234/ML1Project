@@ -1,4 +1,9 @@
 
+# `from setuptools import find_packages, setup` is importing the necessary functions `find_packages`
+# and `setup` from the `setuptools` module. These functions are commonly used in Python packaging to
+# define the structure of a Python package and its dependencies. The `setup` function is used to
+# configure the package metadata and dependencies, while `find_packages` is used to automatically
+# discover and include all Python packages in the project.
 from setuptools import find_packages, setup
 from typing import List
 
